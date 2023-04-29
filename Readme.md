@@ -7,7 +7,7 @@ Como utilizar
 Clone o repositório para o seu ambiente de desenvolvimento:
 bash
 Copy code
-git clone https://github.com/seu-usuario/desafioPOO.
+git clone https://github.com/AlexGuedesSiva/desafioPOO
 Abra o projeto em sua IDE Java de preferência.
 
 Execute a classe Main para ver a estrutura de código em ação.
