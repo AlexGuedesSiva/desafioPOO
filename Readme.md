@@ -23,13 +23,17 @@ idade: um int que representa a idade da pessoa.
 A classe Pessoa utiliza encapsulamento para proteger os atributos e permitir acesso através dos métodos getNome, setNome, getIdade e setIdade. Além disso, a classe Pessoa utiliza abstração para definir métodos que utilizam os atributos, como fazerAniversario e apresentarPessoa. A classe Pessoa ainda utiliza polimorfismo para interagir com outras classes através do método realizarAcao, que recebe como parâmetro um objeto da classe Animal (que é abstrata).
 
 Classe Animal
+
 A classe Animal é uma classe abstrata que representa um animal e possui o método abstrato emitirSom. Esta classe é utilizada para ilustrar o conceito de herança e polimorfismo.
 
 Classes Cachorro e Gato
+
 As classes Cachorro e Gato são subclasses de Animal e implementam o método abstrato emitirSom de maneira diferente, permitindo que o método realizarAcao da classe Pessoa tenha um comportamento diferente dependendo do objeto que recebe como parâmetro.
 
 Classe Main
+
 A classe Main é a classe principal do programa, responsável por criar objetos das outras classes e executar métodos para demonstrar a estrutura de código em ação.
 
 Contribuição
+
 Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou novas funcionalidades para a estrutura de código, fique à vontade para abrir uma issue ou enviar um pull request para o repositório.
